@@ -14,14 +14,14 @@ body {
   font-size: 18px;
   line-height: 1.39;
   
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)) , url(../images/IMAGE.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  url(../images/IMAGE.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 /* resets + utility-resets */
-
 h1, h2, h3, h4, p {
   margin-top: 0;
   margin-bottom: 0;
@@ -163,16 +163,18 @@ address {
 
 .desc .link {
   color: var(--secondary-color);
+
   font-weight: 400;
   font-size: 17px;
   line-height: 1.76;
 }
 
 .second {
-  padding: 160px 270px 40px 60px;
   background-image: url(../images/second-bg.jpg);
   background-position: center;
   background-size: cover;
+
+  padding: 160px 270px 40px 60px;
 }
 
 .second .card {
